@@ -1,7 +1,7 @@
 import streamlit as st
-from src.capture.mailhog_client import fetch_emails
-from src.features.extract_features import extract_features
-from src.ml.predict import load_model, predict
+from capture.mailhog_client import fetch_emails
+from features.extract_features import extract_features
+from ml.predict import load_model, predict
 
 st.title("Live Email Spoofing Detector")
 
